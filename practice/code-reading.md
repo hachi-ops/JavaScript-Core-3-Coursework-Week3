@@ -16,6 +16,8 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+Answer: first is a global variable visible anywhere, second is block scope variable visible only inside the function.
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +36,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+Answer: first one is 10, second will be undefined.
 
 ## Question 3
 
@@ -62,3 +66,8 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+undefined
+9
+10
+9
